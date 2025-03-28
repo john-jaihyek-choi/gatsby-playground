@@ -1,4 +1,10 @@
+import Layout from "../components/Layouts";
+
 const index = () => {
-  return <div>projects</div>;
+  return (
+    <Layout>
+      <div>projects</div>
+    </Layout>
+  );
 };
 export default index;
