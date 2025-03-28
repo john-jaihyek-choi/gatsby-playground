@@ -1,27 +1,33 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "project",
+  "version": "1.0.0",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
-  "version": "0.1.0",
-  "license": "0BSD",
+  "description": "project",
+  "author": "john-jaihyek-choi",
+  "keywords": [
+    "gatsby"
+  ],
   "scripts": {
-    "build": "gatsby build",
     "develop": "gatsby develop",
     "start": "gatsby develop",
+    "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "typecheck": "tsc --noEmit"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.21",
     "gatsby": "^5.14.1",
+    "gatsby-plugin-postcss": "^6.14.0",
+    "postcss": "^8.5.3",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "tailwindcss": "^4.0.17"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
-  },
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "@types/react": "^18.2.55",
+    "@types/react-dom": "^18.2.19",
+    "typescript": "^5.3.3"
   }
 }
